@@ -30,10 +30,10 @@ from futebol_ia.velocidade.estimador_velocidade_distancia import EstimadorVeloci
 # ─────────────────────────────────────────────
 # Configurações globais
 # ─────────────────────────────────────────────
-CAMINHO_VIDEO_ENTRADA = "videos/entrada.mp4"
-CAMINHO_VIDEO_SAIDA   = "videos/saida.avi"
+CAMINHO_VIDEO_ENTRADA = "videos/minhaentrada.mp4"
+CAMINHO_VIDEO_SAIDA   = "videos/minhasaida.avi"
 CAMINHO_MODELO_YOLO   = "modelos/melhor_modelo.pt"       # Peso treinado do YOLO
-CAMINHO_STUB_TRACKS   = "stubs/rastreamentos_stub.pkl"   # Cache opcional de rastreamentos
+CAMINHO_STUB_TRACKS   = "stubs/rastreamentos_stub_minhaentrada.pkl"   # Cache opcional de rastreamentos
 
 
 def principal():

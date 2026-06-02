@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+soccerIA/
+venv/
+.venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Projeto
+modelos/*.pt
+stubs/*.pkl
